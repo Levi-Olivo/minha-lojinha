@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Lojinha</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <h1>Minha Lojinha</h1>
+    <h2>Painel de produtos</h2>
+
+    <div class="produto">
+            <img src="imagens/coxinha.webp" alt="Imagem da coxinha" class="imagem-coxinha" loading="lazy" decoding="async">
+        <h3>Coxinha</h3>
+        <p>Preço: R$ 7,00</p>
+        <p>Estoque: <span id="estoqueCoxinha">10</span></p>
+        <button onclick="comprarCoxinha()">Comprar coxinha</button>
+    </div>
+    <div class="produto">
+            <img src="imagens/pudimfatia.webp" alt="Imagem de fatia de bolo de pudim" class="imagem-bolo" loading="lazy" decoding="async">
+        <h3>Bolo de festa (fatia)</h3>
+        <p>Preço: R$ 9,00</p>
+        <p>Estoque: <span id="estoqueBolo">10</span></p>
+        <button onclick="comprarBolo()">Comprar bolo</button>
+    </div>
+    <div class="produto">
+            <img src="imagens/fantalata.webp" alt="fanta laranja de lata" class="imagem-bolo" loading="lazy" decoding="async">
+        <h3>Fanta laranja (lata)</h3>
+        <p>Preço: R$ 5,00</p>
+        <p>Estoque: <span id="estoqueFanta">10</span></p>
+        <button onclick="comprarFanta()">Comprar Fanta</button>
+    </div>
+    <script src="javascript.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+}
+button {
+    display: block;
+    margin: 1% auto;
+}
+.imagem-coxinha,
+.imagem-bolo,
+.imagem-fanta {
+    width: 13%;
+    height: 13%;
+    border: 1px solid black;
+    margin: 1% auto;
+}
+/* eu SEM QUERER fiz um site que ficaria igual num celular ou num notebook ou tablet, o mobile first poderia ser feito, mas ficaria similar, então ficou meia boca */
